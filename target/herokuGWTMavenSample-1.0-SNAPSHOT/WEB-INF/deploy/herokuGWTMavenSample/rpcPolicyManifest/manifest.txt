@@ -1,0 +1,3 @@
+# Module herokuGWTMavenSample
+# RPC service class, partial path of RPC policy file
+com.jsimone.client.GreetingService, C5936266967DF9245D11DA63299AC637.gwt.rpc
