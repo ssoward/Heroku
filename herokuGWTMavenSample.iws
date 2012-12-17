@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3c04326-05e0-4506-9bcf-0f611c6e39f9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/herokuGWTMavenSample.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/herokuGWTMavenSample.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/herokuGWTMavenSample.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-sources/gwt/com/jsimone/client/GreetingServiceAsync.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-sources/gwt/com/jsimone/client/Messages.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/jsimone/client/GreetingService.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssoward/client/GreetingService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/jsimone/client/herokuGWTMavenSample.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssoward/client/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/jsimone/server/GreetingServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssoward/server/GreetingServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/jsimone/shared/FieldVerifier.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssoward/shared/FieldVerifier.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/com/jsimone/client/Messages.properties" afterPath="$PROJECT_DIR$/src/main/resources/com/ssoward/client/Messages.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/com/jsimone/client/Messages_fr.properties" afterPath="$PROJECT_DIR$/src/main/resources/com/ssoward/client/Messages_fr.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/com/jsimone/herokuGWTMavenSample.gwt.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/ssoward/main.gwt.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/jsimone/client/GwtTestherokuGWTMavenSample.java" afterPath="$PROJECT_DIR$/src/test/java/com/ssoward/client/GwtTestherokuGWTMavenSample.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/resources/com/jsimone/herokuGWTMavenSampleJUnit.gwt.xml" afterPath="$PROJECT_DIR$/src/test/resources/com/ssoward/herokuGWTMavenSampleJUnit.gwt.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/herokuGWTMavenSample.ipr" afterPath="$PROJECT_DIR$/herokuGWTMavenSample.ipr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/herokuGWTMavenSample.iws" afterPath="$PROJECT_DIR$/herokuGWTMavenSample.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-    </list>
+    <list default="true" id="b3c04326-05e0-4506-9bcf-0f611c6e39f9" name="Default" comment="" />
     <ignored path="herokuGWTMavenSample.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="herokuGWTMavenSample.iml" />
