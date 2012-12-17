@@ -1,2 +1,0 @@
-serviceClass: com.jsimone.client.GreetingService
-path: C5936266967DF9245D11DA63299AC637.gwt.rpc

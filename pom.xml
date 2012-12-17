@@ -88,7 +88,7 @@
         <configuration>
           <runTarget>herokuGWTMavenSample.html</runTarget>
           <hostedWebapp>${webappDirectory}</hostedWebapp>
-          <i18nMessagesBundle>com.jsimone.client.Messages</i18nMessagesBundle>
+          <i18nMessagesBundle>com.ssoward.client.Messages</i18nMessagesBundle>
         </configuration>
       </plugin>
 

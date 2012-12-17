@@ -13,13 +13,13 @@
         <element id="javaee-facet-resources" facet="herokuGWTMavenSample/web/Web" />
         <element id="directory" name="WEB-INF">
           <element id="directory" name="classes">
-            <element id="module-output" name="herokuGWTMavenSample" />
+            <element id="module-output" name="herokuGWT" />
           </element>
           <element id="directory" name="lib">
             <element id="library" level="project" name="Maven: com.google.gwt:gwt-servlet:2.4.0" />
           </element>
         </element>
-        <element id="gwt-compiler-output" facet="herokuGWTMavenSample/gwt/GWT" />
+        <element id="gwt-compiler-output" facet="herokuGWT/gwt/GWT" />
       </root>
     </artifact>
   </component>
@@ -220,7 +220,7 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/herokuGWTMavenSample.iml" filepath="$PROJECT_DIR$/herokuGWTMavenSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/herokuGWT.iml" filepath="$PROJECT_DIR$/herokuGWT.iml" />
     </modules>
   </component>
   <component name="ProjectResources">
@@ -230,7 +230,7 @@
     <output url="file://$PROJECT_DIR$/classes" />
   </component>
   <component name="VcsDirectoryMappings">
-    <mapping directory="" vcs="" />
+    <mapping directory="" vcs="Git" />
   </component>
   <component name="WebServicesPlugin" addRequiredLibraries="true" />
   <component name="libraryTable">
@@ -289,48 +289,6 @@
         <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.7/junit-4.7-sources.jar!/" />
       </SOURCES>
     </library>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions />
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions />
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions />
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions />
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.6</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions />
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
 
