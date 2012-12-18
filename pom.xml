@@ -7,7 +7,7 @@
   <!-- POM file generated with GWT webAppCreator -->
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.jsimone</groupId>
-  <artifactId>herokuGWTMavenSample</artifactId>
+  <artifactId>heroku4</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>GWT Maven Archetype</name>
@@ -86,7 +86,7 @@
         <!-- Plugin configuration. There are many available options, see 
           gwt-maven-plugin documentation at codehaus.org -->
         <configuration>
-          <runTarget>herokuGWTMavenSample.html</runTarget>
+          <runTarget>index.jsp</runTarget>
           <hostedWebapp>${webappDirectory}</hostedWebapp>
           <i18nMessagesBundle>com.ssoward.client.Messages</i18nMessagesBundle>
         </configuration>

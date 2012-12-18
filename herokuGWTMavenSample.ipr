@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ArtifactManager">
-    <artifact type="war" name="herokuGWTMavenSample:war">
+    <artifact type="war" name="herokuGWT:war">
       <output-path>$PROJECT_DIR$/target</output-path>
-      <root id="archive" name="herokuGWTMavenSample-1.0-SNAPSHOT.war">
-        <element id="artifact" artifact-name="herokuGWTMavenSample:war exploded" />
+      <root id="archive" name="heroku4-1.0-SNAPSHOT.war">
+        <element id="artifact" artifact-name="herokuGWT:war exploded" />
       </root>
     </artifact>
-    <artifact type="exploded-war" name="herokuGWTMavenSample:war exploded">
-      <output-path>$PROJECT_DIR$/target/herokuGWTMavenSample-1.0-SNAPSHOT</output-path>
+    <artifact type="exploded-war" name="herokuGWT:war exploded">
+      <output-path>$PROJECT_DIR$/target/heroku4-1.0-SNAPSHOT</output-path>
       <root id="root">
-        <element id="javaee-facet-resources" facet="herokuGWTMavenSample/web/Web" />
+        <element id="javaee-facet-resources" facet="herokuGWT/web/Web" />
         <element id="directory" name="WEB-INF">
           <element id="directory" name="classes">
             <element id="module-output" name="herokuGWT" />
@@ -59,11 +59,13 @@
     <autodetection-disabled>
       <facet-type id="gwt">
         <modules>
+          <module name="herokuGWT" />
           <module name="herokuGWTMavenSample" />
         </modules>
       </facet-type>
       <facet-type id="web">
         <modules>
+          <module name="herokuGWT" />
           <module name="herokuGWTMavenSample" />
         </modules>
       </facet-type>
