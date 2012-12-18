@@ -107,177 +107,90 @@
         <h1 class="fontface" id="title"><span class="green">S</span>oward</h1>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <!--<li><a href="#">Resume</a></li>-->
-                <!--<li><a href="#">News</a></li>-->
-                <!--<li><a href="#">Contact</a></li>-->
+                <div id="body">
+                    <div id="util">
+                        <div id="navigation"></div>
+                        <%--<li id="mapTab"><a href="#">Map</a></li>--%>
+                        <%--<li id="homeTab"><a href="#">Home</a></li>--%>
+                        <!--<li><a href="#">News</a></li>-->
+                        <!--<li><a href="#">Contact</a></li>-->
+                    </div>
+                </div>
             </ul>
         </nav>
     </div>
 </header>
+<div id="currentPanel"></div>
+<div id="htmlTemplates" style="display: none;">
+    <div id="container">
+        <!--start intro-->
 
-<div id="container">
-    <!--start intro-->
+        <section id="intro">
+            <!-- Slider -->
+            <div id="slider-three">
 
-    <section id="intro">
-        <!-- Slider -->
-        <div id="slider-three">
+                <div>
+                    <img src="images/demo-images/eliza.png" alt="" />
+                    <p>Eliza Jane<br />
+                    </p>
+                </div>
+                <div>
+                    <img src="images/demo-images/eliza.png" alt="" />
+                    <p>Eliza Jane<br />
+                    </p>
+                </div>
+                <div>
+                    <img src="images/demo-images/eliza.png" alt="" />
+                    <p>Eliza Jane<br />
+                    </p>
+                </div>
+                <div>
+                    <img src="images/demo-images/eliza.png" alt="" />
+                    <p>Eliza Jane<br />
+                    </p>
+                </div>
+                <div>
+                    <img src="images/demo-images/eliza.png" alt="" />
+                    <p>Eliza Jane<br />
+                    </p>
+                </div>
+            </div>
+            <!-- /Slider -->
 
-            <div>
-                <img src="images/demo-images/eliza.png" alt="" />
-                <p>Eliza Jane<br />
-                </p>
-            </div>
-            <div>
-                <img src="images/demo-images/eliza.png" alt="" />
-                <p>Eliza Jane<br />
-                </p>
-            </div>
-            <div>
-                <img src="images/demo-images/eliza.png" alt="" />
-                <p>Eliza Jane<br />
-                </p>
-            </div>
-            <div>
-                <img src="images/demo-images/eliza.png" alt="" />
-                <p>Eliza Jane<br />
-                </p>
-            </div>
-            <div>
-                <img src="images/demo-images/eliza.png" alt="" />
-                <p>Eliza Jane<br />
-                </p>
-            </div>
+        </section>
+        <!--end intro-->
+
+        <div class="quote">
+            <section class="welcome">
+                <h2 class="fontface"> <span class="green">Welcome</span>.This is our Website.Enjoy!</h2>
+            </section>
         </div>
-        <!-- /Slider -->
+        <!--end holder-->
+        <!--start holder-->
+        <div class="content1">
 
-    </section>
-    <!--end intro-->
-
-    <div class="quote">
-        <section class="welcome">
-            <h2 class="fontface"> <span class="green">Welcome</span>.This is our Website.Enjoy!</h2>
-        </section>
+            <section class="news">
+                <h3 class="fontface">Crud</h3>
+                <div id="crud">
+                    <table align="center">
+                        <tr>
+                            <td colspan="2" style="font-weight:bold;">Please enter your name:</td>
+                        </tr>
+                        <tr>
+                            <td id="nameFieldContainer"></td>
+                            <td id="sendButtonContainer"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="color:red;" id="errorLabelContainer"></td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+            <section class="subcontentmed">
+                <h2 class="fontface"> </h2>
+            </section>
+        </div>
     </div>
-    <!--end holder-->
-    <!--start holder-->
-    <div class="content1">
-
-        <section class="news">
-            <h3 class="fontface">Crud</h3>
-            <div id="crud">
-                <table align="center">
-                    <tr>
-                        <td colspan="2" style="font-weight:bold;">Please enter your name:</td>
-                    </tr>
-                    <tr>
-                        <td id="nameFieldContainer"></td>
-                        <td id="sendButtonContainer"></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2" style="color:red;" id="errorLabelContainer"></td>
-                    </tr>
-                </table>
-            </div>
-        </section>
-        <section class="subcontentmed">
-            <h2 class="fontface"> </h2>
-        </section>
-    </div>
-
-
-
-    <!--<div class="content1">-->
-
-    <!--<section class="news">-->
-    <!--<h3 class="fontface"> News</h3>-->
-    <!--<ul>-->
-    <!--<li><span class="green">10.07.2011</span> - Lorem ipsum dolor sit amet.</li>-->
-    <!--<li><span class="green">10.10.2011</span> - Aliquam tincidunt mauris eu risus.</li>-->
-    <!--<li><span class="green">10.13.2011 </span> - Vestibulum auctor dapibus neque.</li>-->
-    <!--</ul>-->
-
-
-    <!--</section>-->
-
-
-    <!--<section class="subcontentmed">-->
-    <!--<h2 class="fontface"> Example Title</h2>-->
-
-
-
-
-
-
-    <!--<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>-->
-
-    <!--<h2 class="fontface">Header Level 2</h2>-->
-
-
-
-    <!--<blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>-->
-
-    <!--<h3 class="fontface">Header Level 3</h3>-->
-
-    <!--<ul>-->
-    <!--<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>-->
-    <!--<li>Aliquam tincidunt mauris eu risus.</li>-->
-    <!--</ul>-->
-
-    <!--<pre><code>-->
-    <!--#header h1 a {-->
-    <!--display: block;-->
-    <!--width: 300px;-->
-    <!--height: 80px;-->
-    <!--}-->
-    <!--</code></pre>-->
-    <!--<a href=""><span class="button">Read more</span></a>-->
-    <!--<br><br><br><br>-->
-    <!--<h2 class="fontface"> Example Forms</h2>-->
-    <!--<form action="#" method="post">-->
-    <!--<div>-->
-    <!--<label for="name">Text Input:</label>-->
-    <!--<input type="text" name="name" id="name" value="" tabindex="1" />-->
-    <!--</div>-->
-
-    <!--<div>-->
-    <!--<h4>Radio Button Choice</h4>-->
-
-    <!--<label for="radio-choice-1">Choice 1</label>-->
-    <!--<input type="radio" name="radio-choice-1" id="radio-choice-1" tabindex="2" value="choice-1" />-->
-
-    <!--<label for="radio-choice-2">Choice 2</label>-->
-    <!--<input type="radio" name="radio-choice-2" id="radio-choice-2" tabindex="3" value="choice-2" />-->
-    <!--</div>-->
-
-    <!--<div>-->
-    <!--<label for="select-choice">Select Dropdown Choice:</label>-->
-    <!--<select name="select-choice" id="select-choice">-->
-    <!--<option value="Choice 1">Choice 1</option>-->
-    <!--<option value="Choice 2">Choice 2</option>-->
-    <!--<option value="Choice 3">Choice 3</option>-->
-    <!--</select>-->
-    <!--</div>-->
-
-    <!--<div>-->
-    <!--<label for="textarea">Textarea:</label>-->
-    <!--<textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>-->
-    <!--</div>-->
-
-    <!--<div>-->
-    <!--<label for="checkbox">Checkbox:</label>-->
-    <!--<input type="checkbox" name="checkbox" id="checkbox" />-->
-    <!--</div>-->
-
-    <!--<div>-->
-    <!--<input type="submit" value="Submit" />-->
-    <!--</div>-->
-    <!--</form>-->
-    <!--</section>-->
-    <!--</div>-->
-
-
-
 </div>
 
 
